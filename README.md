@@ -1,0 +1,2 @@
+# Neural-Combinatorial-Optimization-with-Pointer-Network
+Combinatorial Optimization (CO) seeks the best solution from a finite, but often exponentially large, set of possibilities. Traditional solvers can face computational challenges on large instances. Neural combinatorial optimization (NCO) is using a different approach to solve such problems, by learning heuristics or policies using neural networks.
