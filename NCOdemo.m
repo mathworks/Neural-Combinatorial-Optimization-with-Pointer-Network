@@ -233,12 +233,12 @@ fprintf('Starting reinforcement learning after pre-training (numLoc=%d, hiddenSi
 avgGradA = []; avgSqGradA = [];
 avgGradC = []; avgSqGradC = [];
 
-% --- Early Stopping Parameters ---
+%  Early Stopping Parameters 
 bestReward = -inf; % Initialize best reward seen so far (maximize reward, so start low)
 epochsSinceImprovement = 0;
 bestActorNetState = []; % Store learnables of the best model
 bestCriticNetState = [];% Store learnables of the best model
-% --------------------------------
+% --
 
 fprintf('Starting training (numLoc=%d, hiddenSize=%d, batchSize=%d, gradClip=%.1f, entropyCoeff=%.3f)...\n', ...
     numLoc, hiddenSize, batchSize, gradThreshold, entropyCoefficient);
